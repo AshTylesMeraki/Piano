@@ -1,0 +1,19 @@
+.list-group-item{/*Basado en bootstrap para darle efectos al cursor*/
+    cursor: pointer;
+    height: 50px;
+}
+
+.row{ /*Parametros basados en Flexbox, https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.list-group-item:active{
+    opacity: 0.8;
+}
